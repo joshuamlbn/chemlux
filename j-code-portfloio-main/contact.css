@@ -1,0 +1,157 @@
+body {
+    font-family: Arial, sans-serif;
+    color: darkblue;
+    margin: 0;
+    padding: 0; 
+    display: flex;
+    flex-direction: column;
+    min-height: 20vh;
+    background-image: url('chemback.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat-x; 
+}
+
+.logo {
+    max-width: 150px; 
+    margin-left: 20px;
+    margin-bottom: 20px;
+    align-items: right;
+}
+
+nav {
+    display: 100px;
+    background-color: darkblue;
+    padding: 10px;
+    opacity: 0.8;
+}
+
+nav a {
+    color: white;
+    text-decoration: underline;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 5px;
+}
+
+nav a:hover {
+    background-color: orange;
+}
+
+header {
+    background-color: transparent;
+    color: darkblue;
+    text-align: center;
+    font-size: small;
+    padding: 5px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    opacity: 0.6;
+}
+
+.header a {
+    color: white;
+    text-decoration: none;
+}
+
+.header a:hover {
+    text-decoration: underline;
+}
+
+.header i {
+    margin-right: 5px;
+    color: white;
+}
+
+
+.cfqrcode {
+    max-width: 210px; 
+    margin-bottom: 20px;
+    align-items: right;
+}
+
+main {
+    display: flex;
+}
+
+.content, .cu1 {
+    border: 2px solid #ccc;
+    border-radius: 10px; 
+    padding: 5px; 
+    background-color: whitesmoke; 
+    text-align: center;
+    flex: 1;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 10px; 
+    margin-bottom: 10px;
+    opacity: 0.8;
+}
+
+.map-container {
+    width: 400%;
+    height: 450px;
+    overflow: hidden;
+    position: relative;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.map-container iframe {
+    width: 100%;
+    height: 100%;
+    border: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+
+    footer {
+        background-color: darkblue;
+        color: white;
+        text-align: center;
+        font-size: small;
+        padding: 20px;
+        opacity: 0.8;
+    }
+    
+    .footer p {
+        margin: 5px 0;
+    }
+    
+    .footer a {
+        color: white;
+        text-decoration: none;
+    }
+    
+    .footer a:hover {
+        text-decoration: underline;
+    }
+    
+    .footer i {
+        margin-right: 5px;
+        color: white;
+    }
+    
+    .footer-divider {
+        border-top: 1px solid white;
+        margin: 10px 0;
+    }
+
+    .social-icons {
+        display: flex;
+        gap: 20px;
+    }
+    
+    .social-icon {
+        font-size: 20px;
+        color: yellow;
+        transition: color 0.3s, transform 0.3s;
+    }
+    
+    .social-icon:hover {
+        color: yellow;
+        transform: scale(1.5);
+    }
+    
